@@ -1,0 +1,280 @@
+/* Обнуление */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap");
+
+
+/* -------------------------------------------------------------------- */
+
+body{
+	font-family: "Roboto";
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+
+}
+
+.main {
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+.promise {
+	padding: 122px 0;
+	background: #F5F5F5;
+}
+
+
+
+.promise__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.promise__title {
+}
+
+.title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+}
+
+.title__subtitle {
+	text-transform: uppercase;
+	color: #5D62B5;
+	position: relative;
+	padding: 0  0 0 33px;
+	margin: 0px 0px 33px 0px;
+}
+
+.title__subtitle::before {
+	content: "";
+	background: url('../img/mark.svg') 50% / 30px no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 28px;
+	height: 27px;
+}
+
+.title__item-subtitle {
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.title__main-title {
+	line-height: 1.17;
+	color: #000000;
+	margin: 0px 0px 68px 0px;
+}
+
+.title__item-title {
+	font-weight: 900;
+	font-size: 36px;
+}
+/* --------------------------------------------------------------------------------------------- */
+
+
+.promise__box {
+}
+
+.box {
+	gap: 24px 24px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box__item {
+	flex: 1 0 250px;
+	position: relative;
+	padding: 0 0 0 86px;
+	max-width: 324px;
+}
+
+.box__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+}
+
+.box__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+.box__item_love-dogs::before {
+	content: "";
+	background: url('../img/dog_love.svg') 0 0 no-repeat;
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	top: -5px;
+	left: 0;
+}
+
+.box__item_dog-girl::before {
+	content: "";
+	background: url('../img/dog_vet.svg') 0 0 no-repeat;
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	top: -5px;
+	left: 0;
+}
+
+.box__item_dog-stream::before {
+	content: "";
+	background: url('../img/dog_stream.svg') 0 0 no-repeat;
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	top: -5px;
+	left: 0;
+	
+}
+
+
+/* -----------------------------------------------------------IMPACT------------------------------------------------------------------- */
+
+.impact{
+	background: #29C3BE;
+	position: relative;
+}
+
+
+
+.impact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 111px 0px 212px 0px;
+}
+
+.impact__top {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+	flex-wrap: wrap-reverse;
+	margin: 0px 0px 80px 0px;
+}
+
+.impact__body {
+	position: relative;
+	z-index: 3;
+	flex: 0 1 411px;
+}
+
+.impact__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	position: relative;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 31.68px 0px;
+}
+.impact__subtitle::before {
+	content: "";
+	background: url('../img/mark-white.svg') 50% / 30px no-repeat;
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 28px;
+	height: 27px;
+}
+
+.imact__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+}
+
+.impact__image{
+	margin: -190px 0px 0px 0px;
+	position: relative;
+}
+
+.impact__image::before{
+	content: "";
+	position: absolute;
+	background: url('../img/Blob2.png') 0 0 / 698px no-repeat;
+	top: 80px;
+	right: -90px;
+	width: 695px;
+	height: 308px;
+	z-index: 1;
+}
+
+.impact__item {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	border-radius: 40px;
+}
+.impact__image::before {
+	
+}
+
+/* ----------------------------------------------------BOTTOM---------------------------------------------- */
+
+.impact__bottom {
+	display: flex;
+	gap: 50px 24px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.bottom {}
+
+.bottom__item {
+	display: flex;
+	gap: 11px;
+	flex: 0 1 237px;
+}
+
+.bottom__item_duck {}
+
+.bottom__image {}
+
+.bottom__img {
+	/* margin: 0px 11px 0px 0px; */
+}
+
+.bottom__body {}
+
+.bottom__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+	margin: 0px 0px 3px 0px;
+}
+
+.bottom__subtitle {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+.bottom__item_house {}
+
+.bottom__item_peach {}
+
+.bottom__item_eat {}
